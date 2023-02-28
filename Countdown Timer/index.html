@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="timer">
+        <div class="timer-controls">
+            <button data-time="20" class="timer_button">20 seconds</button>
+            <button data-time="300" class="timer_button">5 minutes</button>
+            <button data-time="900"  class="timer_button">15 minutes</button>
+            <button  data-time="1200" class="timer_button">20 minutes</button>
+            <form name="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="Enter minutes">
+            </form>
+        </div>
+        <div class="display">
+<h1 class="display_time-left"></h1>
+<p class="display_end-time"></p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
